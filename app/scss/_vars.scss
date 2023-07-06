@@ -1,6 +1,21 @@
+$basic: #000038;
 $accent: #ed1c24;
-$bg: #1c1c1c;
-$text: #4b4b4b;
+$text: #2f2f6b;
+$title: #2f2f2f;
+
+:root {
+  --basic: #000038;
+  --basic-opacity: rgba(0, 0, 56, 0.8);
+  --basic-light: #e2eff9;
+  --light-transparent: rgba(226, 239, 249, 0.7);
+  --light-transparent2: rgba(226, 239, 249, 0.4);
+  --accent: #ed1c24;
+  --accent-opacity07: rgba(237, 28, 36, 0.7);
+  --accent-opacity: rgba(237, 28, 36, 0.5);
+  --text: #2f2f6b;
+  --title: #2f2f2f;
+  --input-bg: #310062;
+}
 
 // ! Миксин для fancybox(video-popup), предотвращает ошибку gulp
 @function max($numbers...) {
@@ -43,8 +58,18 @@ $text: #4b4b4b;
 // @extend %radio-hidden;
 
 // ! Шаблон для Шрифта
-%font-name-400 {
-  font-family: "font-name", sans-serif;
+%montserrat-400 {
+  font-family: "Montserrat-Regular", sans-serif;
+  font-weight: 400;
+}
+
+%montserrat-500 {
+  font-family: "Montserrat-Medium", sans-serif;
+  font-weight: 500;
+}
+
+%prata {
+  font-family: "Prata", sans-serif;
   font-weight: 400;
 }
 // ! Использование шаблона
