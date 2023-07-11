@@ -1,0 +1,487 @@
+@media (max-width: 1728px) {
+  .footer {
+    &__form {
+      flex-direction: column;
+      margin: 0 auto;
+      max-width: 700px;
+    }
+
+    &__form-item {
+      margin: 0 0 20px;
+      width: 100%;
+    }
+
+    &__input {
+      max-width: 700px;
+    }
+  }
+}
+
+@media (max-width: 1726px) {
+  .lawyers {
+    &__item {
+      margin-bottom: 25px;
+    }
+  }
+}
+
+@media (max-width: 1708px) {
+  .choice {
+    &__item {
+      margin-bottom: 25px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 1668px) {
+  .header {
+    padding-bottom: 30px;
+  }
+
+  .welcome {
+    &__item {
+      margin-bottom: 30px;
+    }
+  }
+
+  .services {
+    &__feedback-title {
+      font-size: 38px;
+    }
+  }
+}
+
+@media (max-width: 1356px) {
+  .footer {
+    &__items {
+      margin-right: 20px;
+      display: block;
+    }
+
+    &__item {
+      margin-bottom: 20px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 1214px) {
+  .header {
+    padding-bottom: 0;
+  }
+
+  .welcome {
+    &__inner {
+      display: block;
+    }
+
+    &__img-box {
+      display: none;
+    }
+
+    &__content {
+      margin: 0 auto;
+      padding: 30px 0;
+    }
+
+    &__title {
+      margin-bottom: 10px;
+    }
+
+    &__link {
+      margin-bottom: 30px;
+    }
+  }
+
+  .about {
+    &__inner {
+      padding: 30px 0;
+    }
+  }
+
+  .services {
+    padding: 30px 0;
+
+    &__title {
+      margin-bottom: 20px;
+    }
+
+    &__content {
+      margin-bottom: 0;
+    }
+  }
+
+  .cost {
+    &__inner {
+      padding: 30px 0;
+    }
+  }
+
+  .choice {
+    &__inner {
+      padding: 30px 0;
+    }
+
+    &__items {
+      justify-content: flex-start;
+    }
+
+    &__item {
+      max-width: 100%;
+    }
+  }
+
+  .lawyers {
+    padding: 30px 0;
+
+    &__title {
+      margin-bottom: 30px;
+    }
+  }
+
+  .footer {
+    padding: 30px 0;
+  }
+}
+
+@media (max-width: 1044px) {
+  .header {
+    &__items {
+      display: none;
+    }
+
+    &__phone {
+      margin-right: 0;
+    }
+  }
+
+  .welcome {
+    &__content {
+      padding: 0;
+    }
+    &__over-title {
+      font-size: 22px;
+    }
+
+    &__title {
+      font-size: 54px;
+    }
+
+    &__under-title {
+      font-size: 17px;
+    }
+  }
+
+  .about {
+    &__title {
+      font-size: 54px;
+    }
+  }
+
+  .services {
+    &__title {
+      font-size: 54px;
+    }
+
+    &__feedback-title {
+      font-size: 32px;
+    }
+
+    &__feedback-text {
+      &--right {
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+  .cost {
+    &__title {
+      font-size: 54px;
+    }
+  }
+
+  .choice {
+    &__wrap {
+      background-size: cover;
+    }
+
+    &__title {
+      font-size: 54px;
+    }
+  }
+
+  .lawyers {
+    &__title {
+      font-size: 54px;
+    }
+  }
+
+  .footer {
+    &__title {
+      font-size: 54px;
+    }
+  }
+}
+
+@media (max-width: 828px) {
+  .cost {
+    &__tabs-item {
+      max-width: 100%;
+    }
+  }
+}
+
+@media (max-width: 766px) {
+  .welcome {
+    &__over-title {
+      font-size: 18px;
+    }
+    &__title {
+      font-size: 42px;
+    }
+  }
+
+  .about {
+    height: 350px;
+    overflow: auto;
+
+    &__title {
+      font-size: 42px;
+    }
+  }
+
+  .services {
+    &__title {
+      font-size: 42px;
+    }
+
+    &__content {
+      display: block;
+    }
+
+    &__content-title {
+      font-size: 32px;
+      margin-bottom: 30px;
+
+      &::before {
+        height: 50px;
+      }
+    }
+
+    &__feedback-items {
+      display: block;
+    }
+
+    &__feedback-item {
+      padding: 40px 30px;
+      &--left {
+        border-radius: 20px 20px 0 0;
+
+        &::before {
+          border-radius: 20px 20px 0 0;
+        }
+      }
+
+      &--right {
+        border-radius: 0 0 20px 20px;
+      }
+    }
+  }
+
+  .cost {
+    &__title {
+      font-size: 32px;
+    }
+  }
+
+  .choice {
+    &__title {
+      font-size: 42px;
+    }
+
+    &__item {
+      display: block;
+    }
+
+    &__text-box {
+      padding-top: 20px;
+      width: 100%;
+    }
+  }
+
+  .lawyers {
+    &__title {
+      font-size: 42px;
+    }
+  }
+
+  .footer {
+    &__title {
+      font-size: 42px;
+    }
+
+    &__under-title {
+      font-size: 18px;
+    }
+
+    &__contacts {
+      display: block;
+    }
+
+    &__items {
+      margin-bottom: 30px;
+    }
+
+    &__media {
+      border-left: none;
+      justify-content: flex-start;
+      padding: 0;
+    }
+  }
+
+  .up {
+    display: none;
+  }
+}
+
+@media (max-width: 524px) {
+  .modal {
+    &__content {
+      padding: 40px 20px;
+    }
+    &__title {
+      font-size: 30px;
+    }
+  }
+
+  .footer {
+    &__bottom {
+      padding-bottom: 10px;
+    }
+    &__dev {
+      display: block;
+      font-size: 14px;
+    }
+  }
+}
+
+@media (max-width: 454px) {
+  .cost {
+    &__controls {
+      display: block;
+    }
+
+    &__controls-item {
+      margin-right: 0;
+      margin-bottom: 20px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    &__controls-link {
+      width: 215px;
+      border-left: none;
+      border-top: 1px dashed var(--accent);
+      text-align: center;
+    }
+  }
+}
+
+@media (max-width: 420px) {
+  .header {
+    .logo {
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 20px;
+    }
+
+    &__nav {
+      display: block;
+    }
+
+    &__phone {
+      display: block;
+      margin: 0 auto;
+    }
+
+    .welcome {
+      &__title {
+        font-size: 26px;
+      }
+    }
+  }
+
+  .about {
+    &__title {
+      font-size: 26px;
+    }
+  }
+
+  .services {
+    &__title {
+      font-size: 26px;
+    }
+
+    &__content-title {
+      font-size: 24px;
+
+      &::before {
+        height: 40px;
+      }
+    }
+
+    &__item {
+      display: block;
+    }
+
+    &__item-text {
+      p {
+        margin-bottom: 5px;
+      }
+    }
+
+    &__feedback-title {
+      font-size: 24px;
+    }
+  }
+
+  .cost {
+    &__title {
+      font-size: 26px;
+    }
+  }
+
+  .choice {
+    &__title {
+      font-size: 26px;
+    }
+  }
+
+  .lawyers {
+    &__title {
+      font-size: 26px;
+    }
+  }
+
+  .modal {
+    &__title {
+      font-size: 24px;
+      padding-top: 35px;
+    }
+  }
+
+  .footer {
+    &__title {
+      font-size: 26px;
+    }
+  }
+}

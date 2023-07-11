@@ -1,0 +1,62 @@
+.choice {
+  background-color: var(--input-bg);
+  background-image: url(../images/ellipse.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left -950px top -50px;
+
+  &__wrap {
+    background-image: url(../images/col.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right -180px center;
+  }
+
+  &__inner {
+    padding: 80px 0;
+    color: var(--basic-light);
+  }
+
+  &__over-title {
+    font-size: 23px;
+    opacity: 0.7;
+    margin-bottom: 20px;
+  }
+
+  &__title {
+    margin-bottom: 40px;
+  }
+
+  &__items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  &__item {
+    max-width: 560px;
+    border-left: 1px dashed var(--accent);
+    padding: 20px 0 20px 20px;
+    display: flex;
+    align-items: center;
+  }
+
+  &__item-title {
+    font-size: 25px;
+    text-transform: none;
+    margin-bottom: 10px;
+  }
+
+  &__svg-box {
+    margin-right: 20px;
+  }
+
+  &__svg {
+    fill: var(--accent);
+  }
+
+  // &__text {
+  //   opacity: 0.7;
+  //   font-size: 15px;
+  // }
+}

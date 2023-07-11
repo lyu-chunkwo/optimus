@@ -84,6 +84,7 @@
   &__img-box {
     max-width: 660px;
     width: 100%;
+    margin-right: 20px;
   }
 
   &__img {
@@ -100,6 +101,8 @@
   &__over-title {
     font-size: 29px;
     text-transform: uppercase;
+    margin-bottom: 10px;
+    display: inline-block;
   }
 
   &__title {
@@ -119,7 +122,8 @@
 
   &__info {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    margin: 0 -15px;
     flex-wrap: wrap;
   }
 
@@ -133,6 +137,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left top 90px;
+    margin: 0 15px;
 
     p {
       font-size: 15px;

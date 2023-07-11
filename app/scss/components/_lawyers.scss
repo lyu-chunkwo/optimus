@@ -1,0 +1,51 @@
+.lawyers {
+  background-color: var(--basic-light);
+  padding: 80px 0;
+
+  &__title {
+    margin-bottom: 60px;
+  }
+
+  &__list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+  }
+
+  &__item {
+    max-width: 410px;
+    margin: 0 10px;
+  }
+
+  &__img {
+    width: 410px;
+    height: 400px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    filter: grayscale(100%);
+    transition: filter 0.5s;
+
+    &:hover {
+      filter: grayscale(0%);
+    }
+  }
+
+  &__name {
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 25px;
+    text-transform: none;
+  }
+
+  &__link {
+    border-color: var(--basic-light);
+
+    &:hover {
+      background-color: transparent;
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+  }
+}

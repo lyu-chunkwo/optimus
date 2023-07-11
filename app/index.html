@@ -29,19 +29,19 @@
       </a>
       <ul class="header__items">
         <li>
-          <a class="header__item-link" href="">Главная</a>
+          <a class="header__item-link" href="#about">О компании</a>
         </li>
         <li>
-          <a class="header__item-link" href="">О компании</a>
+          <a class="header__item-link" href="#services">Услуги</a>
         </li>
         <li>
-          <a class="header__item-link" href="">Услуги</a>
+          <a class="header__item-link" href="#cost">Прайс</a>
         </li>
         <li>
-          <a class="header__item-link" href="">Прайс</a>
+          <a class="header__item-link" href="#lawyers">Команда</a>
         </li>
         <li>
-          <a class="header__item-link" href="">Контакты</a>
+          <a class="header__item-link" href="#footer">Контакты</a>
         </li>
       </ul>
     </nav>
@@ -59,7 +59,7 @@
         <p class="welcome__under-title">
           12 лет успешной практики, первичные бесплатные консультации
         </p>
-        <a class="link welcome__link" href="contacts.html">Связаться</a>
+        <button class="welcome__link link my-btn" id="myBtn" type="button">Связаться</button>
 
         <ul class="welcome__info">
           <li class="welcome__item">
@@ -82,7 +82,32 @@
   </header>
 
   <main class="main">
-    <div class="services">
+    <section class="about" id="about">
+  <div class="about__wrap">
+    <div class="container">
+      <div class="about__inner">
+        <h2 class="about__title title">О компании</h2>
+
+        <div class="about__text">
+          <p>
+            В этом блоке мы рекомендуем разместить информацию о Вашей организации, подчеркнуть ее значимость и
+            надежность
+            на рынке
+            оказываемых услуг или предлагаемых товаров.
+          </p>
+          <p>
+            Примечание. Обращаем Ваше внимание, что текстовая информация на сайте должна быть индивидуальной, не
+            скопированной с
+            других интернет-ресурсов, о чем указано в рекомендациях Яндекса: «Мы стараемся не индексировать или не
+            ранжировать
+            высоко сайты, копирующие информацию с других ресурсов и не создающие оригинального контента или сервиса».
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+    <section class="services" id="services">
   <div class="container">
     <div class="services__inner">
       <div class="services__overtitle">
@@ -102,7 +127,7 @@
               </svg>
               <div class="services__item-text">
                 <p>Защита по уголовным делам</p>
-                <a class="services__link" href="#">Связаться</a>
+                <a class="services__link" href="#footer">Связаться</a>
               </div>
             </li>
             <li class="services__item">
@@ -111,7 +136,7 @@
               </svg>
               <div class="services__item-text">
                 <p>Представительство в суде</p>
-                <a class="services__link" href="#">Связаться</a>
+                <a class="services__link" href="#footer">Связаться</a>
               </div>
             </li>
             <li class="services__item">
@@ -120,7 +145,7 @@
               </svg>
               <div class="services__item-text">
                 <p>Решение семейных ссор</p>
-                <a class="services__link" href="#">Связаться</a>
+                <a class="services__link" href="#footer">Связаться</a>
               </div>
             </li>
             <li class="services__item">
@@ -129,7 +154,7 @@
               </svg>
               <div class="services__item-text">
                 <p>Сделки с недвижимостью</p>
-                <a class="services__link" href="#">Связаться</a>
+                <a class="services__link" href="#footer">Связаться</a>
               </div>
             </li>
           </ul>
@@ -144,7 +169,7 @@
               </svg>
               <div class="services__item-text">
                 <p>Уголовно-правовая защита</p>
-                <a class="services__link" href="#">Связаться</a>
+                <a class="services__link" href="#footer">Связаться</a>
               </div>
             </li>
             <li class="services__item">
@@ -153,7 +178,7 @@
               </svg>
               <div class="services__item-text">
                 <p>Защита в арбитражных спорах</p>
-                <a class="services__link" href="#">Связаться</a>
+                <a class="services__link" href="#footer">Связаться</a>
               </div>
             </li>
             <li class="services__item">
@@ -162,7 +187,7 @@
               </svg>
               <div class="services__item-text">
                 <p>Представительство в суде</p>
-                <a class="services__link" href="#">Связаться</a>
+                <a class="services__link" href="#footer">Связаться</a>
               </div>
             </li>
             <li class="services__item">
@@ -171,7 +196,7 @@
               </svg>
               <div class="services__item-text">
                 <p>Ликвидация предприятий</p>
-                <a class="services__link" href="#">Связаться</a>
+                <a class="services__link" href="#footer">Связаться</a>
               </div>
             </li>
           </ul>
@@ -191,7 +216,7 @@
                     поддержкой.
                   </p>
                 </div>
-                <a href="#" class="services__link services__link-feedback">Связаться</a>
+                <a href="#footer" class="services__link services__link-feedback">Связаться</a>
               </li>
 
               <li class="services__feedback-item services__feedback-item--right">
@@ -218,20 +243,235 @@
       </div>
     </div>
   </div>
+</section>
+    <section class="cost" id="cost">
+  <div class="cost__wrap">
+    <div class="container">
+      <div class="cost__inner">
+        <h2 class="cost__title title">Стоимость услуг адвокатов</h2>
+
+        <div class="cost__tabs-box">
+          <div class="cost__controls-box">
+            <ul class="cost__controls">
+              <li class="cost__controls-item active" data-services="first">
+                <a class="cost__controls-link" href="#">Гражданские дела</a>
+              </li>
+              <li class="cost__controls-item" data-services="second">
+                <a class="cost__controls-link" href="#">Семейные дела</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="cost__tabs-content">
+            <ul class="cost__tabs-items cost__tabs-items-first active">
+              <li class="cost__tabs-item">
+                <div class="cost__tabs-text">
+                  <p>
+                    Досудебное урегулирование споров
+                  </p>
+                  <span>5 000c</span>
+                </div>
+                <a href="tel:+996555000000" class="cost__tabs-link link">Связаться</a>
+              </li>
+              <li class="cost__tabs-item">
+                <div class="cost__tabs-text">
+                  <p>
+                    Составление процессуальных документов
+                  </p>
+                  <span>2 500c</span>
+                </div>
+                <a href="tel:+996555000000" class="cost__tabs-link link">Связаться</a>
+              </li>
+              <li class="cost__tabs-item">
+                <div class="cost__tabs-text">
+                  <p>
+                    Представительство интересов клиента в суде
+                  </p>
+                  <span>10 000c</span>
+                </div>
+                <a href="tel:+996555000000" class="cost__tabs-link link">Связаться</a>
+              </li>
+              <li class="cost__tabs-item">
+                <div class="cost__tabs-text">
+                  <p>
+                    Правовое сопровождение сделок
+                  </p>
+                  <span>21 000c</span>
+                </div>
+                <a href="tel:+996555000000" class="cost__tabs-link link">Связаться</a>
+              </li>
+            </ul>
+
+            <ul class="cost__tabs-items cost__tabs-items-second">
+              <li class="cost__tabs-item">
+                <div class="cost__tabs-text">
+                  <p>
+                    Составление документов разовое
+                  </p>
+                  <span>2 500c</span>
+                </div>
+                <a href="tel:+996555000000" class="cost__tabs-link link">Связаться</a>
+              </li>
+              <li class="cost__tabs-item">
+                <div class="cost__tabs-text">
+                  <p>
+                    Развод с разделом имущества без детей (при разногласиях)
+                  </p>
+                  <span>28 000c</span>
+                </div>
+                <a href="tel:+996555000000" class="cost__tabs-link link">Связаться</a>
+              </li>
+              <li class="cost__tabs-item">
+                <div class="cost__tabs-text">
+                  <p>
+                    Развод без детей и раздела имущества
+                  </p>
+                  <span>10 000c</span>
+                </div>
+                <a href="tel:+996555000000" class="cost__tabs-link link">Связаться</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+    <section class="choice" id="choice">
+  <div class="choice__wrap">
+    <div class="container">
+      <div class="choice__inner">
+        <div class="choice__over-title">
+          <p>Почему мы лучше</p>
+        </div>
+        <h2 class="choice__title title">Выбор очевиден</h2>
+
+        <ul class="choice__items">
+          <li class="choice__item">
+            <div class="choice__svg-box">
+              <svg class='choice__svg' width='50' height='50'>
+                <use xlink:href='images/svg-sprite/sprite.svg#sheet'></use>
+              </svg>
+            </div>
+            <div class="choice__text-box">
+              <h3 class="choice__item-title title">Бесплатные консультации</h3>
+              <div class="choice__text">
+                <p>
+                  С первых дней существования компании мы обеспечиваем своих клиентов
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="choice__item">
+            <div class="choice__svg-box">
+              <svg class='choice__svg' width='50' height='50'>
+                <use xlink:href='images/svg-sprite/sprite.svg#pricing'></use>
+              </svg>
+            </div>
+            <div class="choice__text-box">
+              <h3 class="choice__item-title title">Продуманное ценообразование</h3>
+              <div class="choice__text">
+                <p>
+                  С первых дней существования компании мы обеспечиваем своих клиентов
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="choice__item">
+            <div class="choice__svg-box">
+              <svg class='choice__svg' width='50' height='50'>
+                <use xlink:href='images/svg-sprite/sprite.svg#handshake'></use>
+              </svg>
+            </div>
+            <div class="choice__text-box">
+              <h3 class="choice__item-title title">Специалисты своего дела</h3>
+              <div class="choice__text">
+                <p>
+                  С первых дней существования компании мы обеспечиваем своих клиентов
+                </p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+    <section class="lawyers" id="lawyers">
+  <div class="container">
+    <div class="lawyers__inner">
+      <h2 class="lawyers__title title">
+        Адвокаты и юристы нашей компании
+      </h2>
+
+      <ul class="lawyers__list">
+        <li class="lawyers__item">
+          <img class="lawyers__img" src="images/1.jpg" alt="lawyer">
+          <span class="lawyers__name title">Милена Форлан</span>
+          <a class="lawyers__link link" href="#footer">Связаться</a>
+        </li>
+        <li class="lawyers__item">
+          <img class="lawyers__img" src="images/2.jpg" alt="lawyer">
+          <span class="lawyers__name title">Всеволод Ярин</span>
+          <a class="lawyers__link link" href="#footer">Связаться</a>
+        </li>
+        <li class="lawyers__item">
+          <img class="lawyers__img" src="images/3.jpg" alt="lawyer">
+          <span class="lawyers__name title">Андрей Мозаев</span>
+          <a class="lawyers__link link" href="#footer">Связаться</a>
+        </li>
+        <li class="lawyers__item">
+          <img class="lawyers__img" src="images/4.jpg" alt="lawyer">
+          <span class="lawyers__name title">Катя Воронова</span>
+          <a class="lawyers__link link" href="#footer">Связаться</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+    <div class="modal" id="myModal">
+  <div class="modal__wrap">
+    <div class="modal__content">
+      <span class="modal__close">&times;</span>
+      <h3 class="modal__title title">Заказать услугу</h3>
+      <div class="modal__text">
+        <p>
+          Вы можете рассчитывать на лучших юристов и адвокатов юридической фирмы
+        </p>
+      </div>
+
+      <form class="modal__form">
+        <input class="modal__input" type="text" placeholder="Имя*">
+        <input class="modal__input" type="tel" placeholder="Телефон*">
+        <textarea class="modal__msg" placeholder="Сообщение"></textarea>
+        <label class="modal__label">
+          <input class="modal__checkbox" type="checkbox">
+          <span class="modal__checkbox-style"></span>
+          Я согласен(а) с обработкой персональных данных
+        </label>
+        <button class="modal__btn link" type="submit">отправить</button>
+      </form>
+    </div>
+  </div>
 </div>
   </main>
 
-  <footer class="footer">
+  <footer class="footer" id="footer">
     <div class="container">
   <div class="footer__inner">
     <div class="footer__top">
       <h2 class="title footer__title">Остались вопросы?</h2>
+      <div class="footer__under-title">
+        <p>
+          Отправьте нам сообщение, и мы свяжемся с вами
+        </p>
+      </div>
 
       <form class="footer__form">
-        <input class="footer__input" type="text" placeholder="Ваше имя*">
-        <input class="footer__input" type="tel" placeholder="Телефон*">
-        <input class="footer__input" type="email" placeholder="E-mail*">
-        <button class="footer__btn" type="submit">Отправить</button>
+        <input class="footer__input footer__form-item" type="text" placeholder="Ваше имя*">
+        <input class="footer__input footer__form-item" type="tel" placeholder="Телефон*">
+        <input class="footer__input footer__form-item" type="email" placeholder="E-mail*">
+        <button class="footer__btn footer__form-item" type="submit">Отправить</button>
       </form>
     </div>
 
@@ -239,7 +479,9 @@
       <ul class="footer__items">
         <li class="footer__item footer__item--num">
           <p class="footer__contacts-title">Звоните по номеру</p>
-          <a class="footer__contacts-link" href="tel:+996555915987">+996 (555) 00-00-00</a>
+          <a class="footer__contacts-link" href="tel:+996555000000">+996 (706) 00-00-00</a>
+          <a class="footer__contacts-link" href="tel:+996555000000">+996 (555) 00-00-00</a>
+          <a class="footer__contacts-link" href="tel:+996555000000">+996 (777) 00-00-00</a>
         </li>
         <li class="footer__item footer__item--local">
           <p class="footer__contacts-title">Мы находимся</p>
@@ -288,11 +530,17 @@
         <p>
           Разработка сайта студия Webex
         </p>
-        <a class="footer__dev-link" href="email:inbox@webex.go.kg">inbox@webex.go.kg</a>
+        <a class="footer__dev-link" href="mailto:inbox@webex.go.kg">inbox@webex.go.kg</a>
       </div>
     </div>
   </div>
 </div>
+
+<a class="up" href="#">
+  <svg class='up__svg' width='20' height='15'>
+    <use xlink:href='images/svg-sprite/sprite.svg#up'></use>
+  </svg>
+</a>
   </footer>
 
 

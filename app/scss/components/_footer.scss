@@ -11,7 +11,24 @@
 
   &__title {
     color: var(--basic-light);
+  }
+
+  &__under-title {
     margin-bottom: 20px;
+    font-size: 23px;
+    color: var(--basic-light);
+    opacity: 0.6;
+  }
+
+  &__form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+  }
+
+  &__form-item {
+    margin: 0 10px;
   }
 
   &__input {
@@ -19,9 +36,9 @@
     width: 100%;
     padding: 20px;
     border-radius: 10px;
-    margin-right: 10px;
     background-color: var(--input-bg);
     border: 1px solid var(--input-bg);
+    color: var(--basic-light);
 
     &:last-child {
       margin-right: 0;
@@ -30,6 +47,7 @@
     &::placeholder {
       font-size: 15px;
       color: var(--basic-light);
+      opacity: 0.4;
     }
   }
 
@@ -63,13 +81,13 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     margin-right: 100px;
   }
 
   &__item {
     padding-left: 40px;
     position: relative;
+    margin-right: 20px;
 
     &--num {
       a {
@@ -81,25 +99,21 @@
       position: absolute;
       content: "";
       left: 0;
-      top: 50%;
-      transform: translateY(-50%);
+      top: 15px;
+      background-repeat: no-repeat;
+      width: 28px;
+      height: 21px;
     }
 
     &--num::before {
-      width: 18px;
-      height: 21px;
       background-image: url(../images/svg-sprite/sprite.svg#bottom-phone);
     }
 
     &--local::before {
-      width: 18px;
-      height: 21px;
       background-image: url(../images/svg-sprite/sprite.svg#local);
     }
 
     &--mail::before {
-      width: 18px;
-      height: 21px;
       background-image: url(../images/svg-sprite/sprite.svg#envelope);
     }
 
@@ -121,10 +135,12 @@
   &__contacts-link {
     color: var(--basic-light);
     font-size: 14px;
+    display: block;
+    margin-bottom: 5px;
   }
 
   &__media {
-    padding: 30px 0;
+    padding: 50px 0;
     max-width: 290px;
     width: 100%;
     display: flex;
