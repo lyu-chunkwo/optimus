@@ -297,7 +297,7 @@
 
   .cost {
     &__title {
-      font-size: 32px;
+      font-size: 42px;
     }
   }
 
@@ -323,6 +323,9 @@
   }
 
   .footer {
+    &__top {
+      margin-bottom: 0;
+    }
     &__title {
       font-size: 42px;
     }
@@ -351,6 +354,15 @@
   }
 }
 
+@media (max-width: 658px) {
+  .welcome {
+    &__item {
+      max-width: 100%;
+      background-position: left top -35px;
+    }
+  }
+}
+
 @media (max-width: 524px) {
   .modal {
     &__content {
@@ -373,6 +385,13 @@
 }
 
 @media (max-width: 454px) {
+  .welcome {
+    &__item {
+      max-width: 100%;
+      background-position: left top 5px;
+    }
+  }
+
   .cost {
     &__controls {
       display: block;
@@ -416,6 +435,11 @@
     .welcome {
       &__title {
         font-size: 26px;
+      }
+
+      &__item {
+        max-width: 100%;
+        background-position: left top 45px;
       }
     }
   }
