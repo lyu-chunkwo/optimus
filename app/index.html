@@ -8,6 +8,7 @@
   <link rel="icon" href="favicon.png" type="image/x-icon" />
   <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
   <title>Optimus</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <link rel="stylesheet" href="css/style.min.css">
 </head>
 
@@ -17,15 +18,15 @@
     <div class="container">
   <div class="header__nav">
     <a class="logo" href="#">
-      <img class="logo__img" src="images/logo.png" alt="Логотип">
+      <img class="logo__img" src="images/logo/logo.png" alt="Логотип">
     </a>
 
     <nav class="header__menu">
-      <a class="header__phone" href="tel:+996555000000">
+      <a class="header__phone" href="tel:+996706365881">
         <svg class='header__phone-svg' width='17' height='20'>
           <use xlink:href='images/svg-sprite/sprite.svg#phone'></use>
         </svg>
-        +996 (555) 00-00-00
+        +996 (706) 36-58-81
       </a>
       <ul class="header__items">
         <li>
@@ -50,27 +51,31 @@
   <div class="welcome">
     <div class="welcome__inner">
       <div class="welcome__img-box">
-        <img class="welcome__img" src="images/main-img.webp" alt="main image">
+        <img class="welcome__img wow animate__animated animate__fadeInDown" data-wow-delay="0.3s"
+          src="images/main-img/main-img.webp" alt="main image">
       </div>
 
       <div class="welcome__content">
-        <span class="welcome__over-title">Профессиональные</span>
-        <h1 class="title welcome__title">Юридические услуги</h1>
-        <p class="welcome__under-title">
+        <span class="welcome__over-title wow animate__animated animate__fadeInUp"
+          data-wow-delay="0.3s">Профессиональные</span>
+        <h1 class="title welcome__title wow animate__animated animate__fadeInUp" data-wow-delay="0.6s">Юридические
+          услуги</h1>
+        <p class="welcome__under-title wow animate__animated animate__fadeInUp" data-wow-delay="0.9s">
           12 лет успешной практики, первичные бесплатные консультации
         </p>
-        <button class="welcome__link link my-btn" id="myBtn" type="button">Связаться</button>
+        <button class="welcome__link link my-btn wow animate__animated animate__fadeInUp" data-wow-delay="1.1s"
+          id="myBtn" type="button">Связаться</button>
 
         <ul class="welcome__info">
-          <li class="welcome__item">
+          <li class="welcome__item wow animate__animated animate__fadeInDown" data-wow-delay="1.4s">
             <span class="title welcome__info-title">12 лет</span>
             <p>Успешной практики в юридической сфере</p>
           </li>
-          <li class="welcome__item">
+          <li class="welcome__item wow animate__animated animate__fadeInDown" data-wow-delay="1.7s">
             <span class="title welcome__info-title">97,53%</span>
             <p>Статистика выиграных дел</p>
           </li>
-          <li class="welcome__item">
+          <li class="welcome__item wow animate__animated animate__fadeInDown" data-wow-delay="2s">
             <span class="title welcome__info-title">24/7</span>
             <p>Всегда с вами на связи</p>
           </li>
@@ -86,9 +91,9 @@
   <div class="about__wrap">
     <div class="container">
       <div class="about__inner">
-        <h2 class="about__title title">О компании</h2>
+        <h2 class="about__title title wow animate__animated animate__fadeInUp" data-wow-delay="0.3s">О компании</h2>
 
-        <div class="about__text">
+        <div class="about__text wow animate__animated animate__fadeInUp" data-wow-delay="0.6s"">
           <p>
             В этом блоке мы рекомендуем разместить информацию о Вашей организации, подчеркнуть ее значимость и
             надежность
@@ -110,17 +115,19 @@
     <section class="services" id="services">
   <div class="container">
     <div class="services__inner">
-      <div class="services__overtitle">
+      <div class="services__overtitle wow animate__animated animate__fadeInUp">
         <p>
           Основные направления работы
         </p>
       </div>
-      <h2 class="title services__title">Мы оказываем услуги</h2>
+      <h2 class="title services__title wow animate__animated animate__fadeInUp" data-wow-delay="0.3s">Мы оказываем
+        услуги</h2>
 
       <div class="services__content">
         <div class="services__individuals services__content-item">
-          <h3 class="services__content-title title">Гражданам</h3>
-          <ul class="services__items">
+          <h3 class="services__content-title title wow animate__animated animate__fadeInUp" data-wow-delay="0.5s">
+            Гражданам</h3>
+          <ul class="services__items wow animate__animated animate__fadeInUp" data-wow-delay="0.7s">
             <li class="services__item">
               <svg class='services__svg' width='50' height='50'>
                 <use xlink:href='images/svg-sprite/sprite.svg#gavel'></use>
@@ -161,8 +168,9 @@
         </div>
 
         <div class="services__legal services__content-item">
-          <h3 class="services__content-title title">Бизнесу</h3>
-          <ul class="services__items">
+          <h3 class="services__content-title title wow animate__animated animate__fadeInUp" data-wow-delay="0.5s">
+            Бизнесу</h3>
+          <ul class="services__items wow animate__animated animate__fadeInUp" data-wow-delay="0.7s">
             <li class="services__item">
               <svg class='services__svg' width='50' height='50'>
                 <use xlink:href='images/svg-sprite/sprite.svg#briefcase'></use>
@@ -207,7 +215,9 @@
         <div class="services__feedback">
           <div class="services__feedback-box">
             <ul class="services__feedback-items">
-              <li class="services__feedback-item services__feedback-item--left">
+              <li
+                class="services__feedback-item services__feedback-item--left wow animate__animated animate__fadeInLeft"
+                data-wow-delay="1s">
                 <h2 class="services__feedback-title title">Мы знаем как вам помочь</h2>
                 <div class="services__feedback-text">
                   <p>
@@ -219,7 +229,9 @@
                 <a href="#footer" class="services__link services__link-feedback">Связаться</a>
               </li>
 
-              <li class="services__feedback-item services__feedback-item--right">
+              <li
+                class="services__feedback-item services__feedback-item--right wow animate__animated animate__fadeInRight"
+                data-wow-delay="1s">
                 <div class="services__feedback-title title">Обратная связь</div>
                 <div class="services__feedback-text services__feedback-text--right">
                   <p>
@@ -248,10 +260,10 @@
   <div class="cost__wrap">
     <div class="container">
       <div class="cost__inner">
-        <h2 class="cost__title title">Стоимость услуг адвокатов</h2>
+        <h2 class="cost__title title wow animate__animated animate__fadeInDown">Стоимость услуг адвокатов</h2>
 
         <div class="cost__tabs-box">
-          <div class="cost__controls-box">
+          <div class="cost__controls-box wow animate__animated animate__fadeInUp" data-wow-delay="0.3s">
             <ul class="cost__controls">
               <li class="cost__controls-item active" data-services="first">
                 <a class="cost__controls-link" href="#">Гражданские дела</a>
@@ -264,7 +276,7 @@
 
           <div class="cost__tabs-content">
             <ul class="cost__tabs-items cost__tabs-items-first active">
-              <li class="cost__tabs-item">
+              <li class="cost__tabs-item wow animate__animated animate__fadeInUp" data-wow-delay="0.5s">
                 <div class="cost__tabs-text">
                   <p>
                     Досудебное урегулирование споров
@@ -273,7 +285,7 @@
                 </div>
                 <a href="tel:+996555000000" class="cost__tabs-link link">Связаться</a>
               </li>
-              <li class="cost__tabs-item">
+              <li class="cost__tabs-item wow animate__animated animate__fadeInUp" data-wow-delay="0.7s">
                 <div class="cost__tabs-text">
                   <p>
                     Составление процессуальных документов
@@ -282,7 +294,7 @@
                 </div>
                 <a href="tel:+996555000000" class="cost__tabs-link link">Связаться</a>
               </li>
-              <li class="cost__tabs-item">
+              <li class="cost__tabs-item wow animate__animated animate__fadeInUp" data-wow-delay="0.9s">
                 <div class="cost__tabs-text">
                   <p>
                     Представительство интересов клиента в суде
@@ -291,7 +303,7 @@
                 </div>
                 <a href="tel:+996555000000" class="cost__tabs-link link">Связаться</a>
               </li>
-              <li class="cost__tabs-item">
+              <li class="cost__tabs-item wow animate__animated animate__fadeInUp" data-wow-delay="1.1s">
                 <div class="cost__tabs-text">
                   <p>
                     Правовое сопровождение сделок
@@ -303,7 +315,7 @@
             </ul>
 
             <ul class="cost__tabs-items cost__tabs-items-second">
-              <li class="cost__tabs-item">
+              <li class="cost__tabs-item wow animate__animated animate__fadeInUp" data-wow-delay="0.1s">
                 <div class="cost__tabs-text">
                   <p>
                     Составление документов разовое
@@ -312,7 +324,7 @@
                 </div>
                 <a href="tel:+996555000000" class="cost__tabs-link link">Связаться</a>
               </li>
-              <li class="cost__tabs-item">
+              <li class="cost__tabs-item wow animate__animated animate__fadeInUp" data-wow-delay="0.4s">
                 <div class="cost__tabs-text">
                   <p>
                     Развод с разделом имущества без детей (при разногласиях)
@@ -321,7 +333,7 @@
                 </div>
                 <a href="tel:+996555000000" class="cost__tabs-link link">Связаться</a>
               </li>
-              <li class="cost__tabs-item">
+              <li class="cost__tabs-item wow animate__animated animate__fadeInUp" data-wow-delay="0.7s">
                 <div class="cost__tabs-text">
                   <p>
                     Развод без детей и раздела имущества
@@ -341,13 +353,14 @@
   <div class="choice__wrap">
     <div class="container">
       <div class="choice__inner">
-        <div class="choice__over-title">
+        <div class="choice__over-title wow animate__animated animate__fadeInLeft">
           <p>Почему мы лучше</p>
         </div>
-        <h2 class="choice__title title">Выбор очевиден</h2>
+        <h2 class="choice__title title wow animate__animated animate__fadeInLeft" data-wow-delay="0.3s">Выбор очевиден
+        </h2>
 
         <ul class="choice__items">
-          <li class="choice__item">
+          <li class="choice__item wow animate__animated animate__fadeInLeft" data-wow-delay="0.5s">
             <div class="choice__svg-box">
               <svg class='choice__svg' width='50' height='50'>
                 <use xlink:href='images/svg-sprite/sprite.svg#sheet'></use>
@@ -362,7 +375,7 @@
               </div>
             </div>
           </li>
-          <li class="choice__item">
+          <li class="choice__item wow animate__animated animate__fadeInLeft" data-wow-delay="0.8s">
             <div class="choice__svg-box">
               <svg class='choice__svg' width='50' height='50'>
                 <use xlink:href='images/svg-sprite/sprite.svg#pricing'></use>
@@ -377,7 +390,7 @@
               </div>
             </div>
           </li>
-          <li class="choice__item">
+          <li class="choice__item wow animate__animated animate__fadeInLeft" data-wow-delay="1.1s">
             <div class="choice__svg-box">
               <svg class='choice__svg' width='50' height='50'>
                 <use xlink:href='images/svg-sprite/sprite.svg#handshake'></use>
@@ -400,28 +413,28 @@
     <section class="lawyers" id="lawyers">
   <div class="container">
     <div class="lawyers__inner">
-      <h2 class="lawyers__title title">
+      <h2 class="lawyers__title title wow animate__animated animate__bounceInLeft">
         Адвокаты и юристы нашей компании
       </h2>
 
       <ul class="lawyers__list">
-        <li class="lawyers__item">
-          <img class="lawyers__img" src="images/1.jpg" alt="lawyer">
+        <li class="lawyers__item wow animate__animated animate__bounceInLeft" data-wow-delay="1.1s">
+          <img class="lawyers__img" src="images/team/1.webp" alt="lawyer">
           <span class="lawyers__name title">Милена Форлан</span>
           <a class="lawyers__link link" href="#footer">Связаться</a>
         </li>
-        <li class="lawyers__item">
-          <img class="lawyers__img" src="images/2.jpg" alt="lawyer">
+        <li class="lawyers__item wow animate__animated animate__bounceInLeft" data-wow-delay="0.9s">
+          <img class="lawyers__img" src="images/team/2.webp" alt="lawyer">
           <span class="lawyers__name title">Всеволод Ярин</span>
           <a class="lawyers__link link" href="#footer">Связаться</a>
         </li>
-        <li class="lawyers__item">
-          <img class="lawyers__img" src="images/3.jpg" alt="lawyer">
+        <li class="lawyers__item wow animate__animated animate__bounceInLeft" data-wow-delay="0.6s">
+          <img class="lawyers__img" src="images/team/3.webp" alt="lawyer">
           <span class="lawyers__name title">Андрей Мозаев</span>
           <a class="lawyers__link link" href="#footer">Связаться</a>
         </li>
-        <li class="lawyers__item">
-          <img class="lawyers__img" src="images/4.jpg" alt="lawyer">
+        <li class="lawyers__item wow animate__animated animate__bounceInLeft" data-wow-delay="0.3s">
+          <img class="lawyers__img" src="images/team/4.webp" alt="lawyer">
           <span class="lawyers__name title">Катя Воронова</span>
           <a class="lawyers__link link" href="#footer">Связаться</a>
         </li>
@@ -460,14 +473,16 @@
     <div class="container">
   <div class="footer__inner">
     <div class="footer__top">
-      <h2 class="title footer__title">Остались вопросы?</h2>
-      <div class="footer__under-title">
+      <h2 class="title footer__title wow animate__animated animate__fadeInUp" data-wow-duration="1s">Остались вопросы?
+      </h2>
+      <div class="footer__under-title wow animate__animated animate__fadeInUp" data-wow-delay="0.3s"
+        data-wow-duration="1s">
         <p>
           Отправьте нам сообщение, и мы свяжемся с вами
         </p>
       </div>
 
-      <form class="footer__form">
+      <form class="footer__form wow animate__animated animate__fadeInUp" data-wow-delay="0.6s" data-wow-duration="1s">
         <input class="footer__input footer__form-item" type="text" placeholder="Ваше имя*">
         <input class="footer__input footer__form-item" type="tel" placeholder="Телефон*">
         <input class="footer__input footer__form-item" type="email" placeholder="E-mail*">
@@ -475,13 +490,13 @@
       </form>
     </div>
 
-    <div class="footer__contacts">
+    <div class="footer__contacts wow animate__animated animate__fadeInUp" data-wow-delay="0.9s" data-wow-duration="1s">
       <ul class="footer__items">
         <li class="footer__item footer__item--num">
           <p class="footer__contacts-title">Звоните по номеру</p>
-          <a class="footer__contacts-link" href="tel:+996555000000">+996 (706) 00-00-00</a>
-          <a class="footer__contacts-link" href="tel:+996555000000">+996 (555) 00-00-00</a>
-          <a class="footer__contacts-link" href="tel:+996555000000">+996 (777) 00-00-00</a>
+          <a class="footer__contacts-link" href="tel:+996706365881">+996 (706) 36-58-81</a>
+          <a class="footer__contacts-link" href="tel:+996555365881">+996 (555) 36-58-81</a>
+          <a class="footer__contacts-link" href="tel:+996777365881">+996 (777) 36-58-81</a>
         </li>
         <li class="footer__item footer__item--local">
           <p class="footer__contacts-title">Мы находимся</p>
@@ -520,7 +535,7 @@
       </ul>
     </div>
 
-    <div class="footer__bottom">
+    <div class="footer__bottom wow animate__animated animate__fadeInDown" data-wow-delay="1.2s" data-wow-duration="1s">
       <div class="footer__copy">
         <p>
           Copyright © 2023 Optimus
@@ -543,7 +558,8 @@
 </a>
   </footer>
 
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+  <script src="js/wow.min.js"></script>
   <script src="js/main.min.js"></script>
 </body>
 

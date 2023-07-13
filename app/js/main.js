@@ -45,12 +45,6 @@ $(function () {
     }
 
 
-  
-  $('.class-name').slick({
-
-  });
-
-
   $(document).scroll(function () {
     var scrollTop = $(window).scrollTop();
     console.log(scrollTop);
@@ -68,4 +62,16 @@ $(function () {
     $('body').toggleClass('lock'); // ! No scroll
   });
 
+
+  wow = new WOW(
+    {
+      boxClass: 'wow',      // default
+      animateClass: 'animate__animated', // default
+      offset: 0,          // default
+      mobile: false,       // default
+      duration: 1,       // default
+      live: true        // default
+    }
+  )
+  wow.init();
 });

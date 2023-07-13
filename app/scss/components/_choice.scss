@@ -1,12 +1,12 @@
 .choice {
   background-color: var(--input-bg);
-  background-image: url(../images/ellipse.png);
+  background-image: url(../images/bg/ellipse.webp);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: left -950px top -50px;
+  background-position: left -950px bottom -1150px;
 
   &__wrap {
-    background-image: url(../images/col.png);
+    background-image: url(../images/col.webp);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right -180px center;
@@ -55,8 +55,8 @@
     fill: var(--accent);
   }
 
-  // &__text {
-  //   opacity: 0.7;
-  //   font-size: 15px;
-  // }
+  &__text {
+    opacity: 0.7;
+    font-size: 15px;
+  }
 }

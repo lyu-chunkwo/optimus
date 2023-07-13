@@ -1,5 +1,5 @@
 .cost {
-  background-image: url(../images/columns.png);
+  background-image: url(../images/bg/columns.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
@@ -17,10 +17,10 @@
   }
 
   &__wrap {
-    background-image: url(../images/ellipse.png);
+    background-image: url(../images/bg/ellipse.webp);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: right -450px top -10px;
+    background-position: right -450px bottom -1150px;
     position: relative;
     z-index: 55;
   }

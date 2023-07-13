@@ -110,7 +110,7 @@
 
     &--left {
       background-color: var(--basic);
-      background-image: url(../images/column.png);
+      background-image: url(../images/bg/column.webp);
       background-repeat: no-repeat;
       background-size: cover;
       background-position: left -247px center;
@@ -237,101 +237,4 @@
       }
     }
   }
-  // &__feedback-wrap {
-  //   background: linear-gradient(to right, var(--basic) 50%, var(--input-bg) 50%);
-  //   color: var(--basic-light);
-  //   border-radius: 20px;
-  // }
-
-  // &__feedback {
-  //   border-radius: 20px;
-  //   width: 100%;
-  //   height: 100%;
-  //   background-image: url(../images/column.png);
-  //   background-repeat: no-repeat;
-  //   background-size: cover;
-  //   background-position: left -410px top -30px;
-  //
-  // }
-
-  // &__feedback-items {
-  //   display: flex;
-  //   align-items: center;
-  //   padding: 60px;
-  // }
-
-  // &__feedback-item {
-  //   position: relative;
-  //   max-width: 850px;
-  // }
-
-  // &__input {
-  //   width: 100%;
-  //   padding: 10px 30px;
-  //   border-radius: 10px;
-  //   border: 1px solid var(--input-bg);
-  //   margin-bottom: 20px;
-  // }
-
-  // &__label {
-  //   margin-bottom: 20px;
-  //   display: inline-block;
-  //   padding-left: 25px;
-  //   font-size: 15px;
-  // }
-
-  // &__checkbox {
-  //   width: 0;
-  //   height: 0;
-  //   overflow: hidden;
-  //   clip: rect(0 0 0 0);
-  //   position: relative;
-
-  //   &:checked {
-  //     & + .services__checkbox-style {
-  //       &::before {
-  //         content: "";
-  //         position: absolute;
-  //         width: 10px;
-  //         height: 10px;
-  //         background-color: var(--basic-light);
-  //         top: 50%;
-  //         left: 50%;
-  //         transform: translate(-50%, -50%);
-  //         border-radius: 50%;
-  //       }
-  //     }
-  //   }
-  // }
-
-  // &__checkbox-style {
-  //   position: absolute;
-  //   width: 20px;
-  //   height: 20px;
-  //   border: 2px solid var(--basic-light);
-  //   border-radius: 50%;
-  //   margin-left: -30px;
-  // }
-
-  // &__btn {
-  //   opacity: 0.5;
-  //   pointer-events: none;
-
-  //   &:hover {
-  //     background-color: var(--accent);
-  //     opacity: 0.5;
-  //     border-color: var(--input-bg);
-  //   }
-
-  //   &.active {
-  //     cursor: pointer;
-  //     opacity: 1;
-  //     pointer-events: auto;
-
-  //     &:hover {
-  //       background-color: transparent;
-  //       border-color: #fff;
-  //     }
-  //   }
-  // }
 }

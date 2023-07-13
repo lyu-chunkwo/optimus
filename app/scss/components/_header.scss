@@ -1,6 +1,6 @@
 .header {
   background-color: var(--basic);
-  background-image: url(../images/ellipse.png);
+  background-image: url(../images/bg/ellipse.webp);
   background-repeat: no-repeat;
   background-position: left -550px top 100px;
   padding-bottom: 80px;
@@ -133,10 +133,10 @@
     background-color: var(--input-bg);
     padding: 30px;
     border-radius: 10px;
-    background-image: url(../images/ellipse.png);
+    background-image: url(../images/bg/ellipse.webp);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: left top 90px;
+    background-position: left bottom -170px;
     margin: 0 15px;
 
     p {
